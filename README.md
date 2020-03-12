@@ -1,10 +1,10 @@
 # 二手商品及任务商城小程序 P-mission
 ## 1.1. Function
-![](https://gitee.com/istarwyh/images/raw/master/1584021618_20200312212547135_7609.png =750x)
+![](https://gitee.com/istarwyh/images/raw/master/1584021618_20200312212547135_7609.png)
 
 **基本样式**
 
-![](https://gitee.com/istarwyh/images/raw/master/1584021619_20200312213538919_11231.png =200x)
+![](https://gitee.com/istarwyh/images/raw/master/1584021619_20200312213538919_11231.png)
 ## 1.2. Structure
 ```
 .
@@ -20,9 +20,9 @@
 ```
 
 ## 1.3. Architecture
-![使用技术栈](https://gitee.com/istarwyh/images/raw/master/1584021617_20200312212458423_16285.png =750x)
+![使用技术栈](https://gitee.com/istarwyh/images/raw/master/1584021617_20200312212458423_16285.png)
 
-![开发架构](https://gitee.com/istarwyh/images/raw/master/1584021619_20200312213015218_11899.png =750x)
+![开发架构](https://gitee.com/istarwyh/images/raw/master/1584021619_20200312213015218_11899.png)
 ## 1.4. Running the Sample
 
 - git clone `git@github.com:istarwyh/P-mission.git`
