@@ -21,8 +21,7 @@ function initQiniu() {
 var app = getApp()
 Page({
   data: {
-    hasLogin: app.globalData.hasLogin,
-    // hasLogin: true,
+    hasLogin: false,
     switchstatus: 0,
     imageList: [],
     categories: ["图书", "电子", "其他"],
@@ -48,16 +47,32 @@ Page({
   },
 
   //事件处理函数
-  onLoad: function() {
+  onLoad: function () {
     console.log('onLoad')
     var that = this;
-    this.setData({
-      hasLogin: app.globalData.hasLogin
-    })
-    console.log(app.globalData.hasLogin)
     console.log(app.globalData.hasLogin)
     //定位
     that.getCityNameOFLocation()
+  },
+  onReady: function () {
+    // 页面渲染完成
+  },
+  onShow: function () {
+    // 页面显示
+    // if (app.globalData.hasLogin) {
+    //   this.getCartList();
+    // }
+
+    this.setData({
+      hasLogin: app.globalData.hasLogin
+    });
+
+  },
+  onHide: function () {
+    // 页面隐藏
+  },
+  onUnload: function () {
+    // 页面关闭
   },
   goLogin() {
     wx.navigateTo({
